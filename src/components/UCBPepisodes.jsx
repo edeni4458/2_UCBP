@@ -6,29 +6,19 @@ const UCBPepisodes = () => {
 
     return (
         <div className='main-episode-container'>
-            <h3>Here are the most recent 10 episodes</h3>
             <div className="ucbp-container">
+                <h2>Most recent episodes</h2>
                 <hr />
                 <Container>
-                    <iframe src="https://podcasters.spotify.com/pod/show/under-the-cardboard-box-a/embed" height="102px" width="700px" frameborder="0" scrolling="no"></iframe>
+                    <iframe src="https://open.spotify.com/embed/episode/4UhoPvZOAVQs3Wr08al1t1?utm_source=generator" width="85%" height="152"allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>                </Container>
+                <Container>
+                    <iframe src="https://open.spotify.com/embed/episode/2WBrfMgsHh2QVhQAXwtf7P?utm_source=generator" width="85%" height="152" allowFullScreen="allow" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
                 </Container>
                 <Container>
-                    <iframe src="https://podcasters.spotify.com/pod/show/under-the-cardboard-box-a/embed/episodes/U-C-B-P-Episode-64-E3-Predictions-2021-e12al7i" height="102px" width="700px" frameborder="0" scrolling="no"></iframe>
+                    <iframe src="https://open.spotify.com/embed/episode/3doNZgQmChRyEtCALzVwkN?utm_source=generator" width="85%" height="152" allowFullScreen="allow" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
                 </Container>
                 <Container>
-                    <iframe src="https://podcasters.spotify.com/pod/show/under-the-cardboard-box-a/embed/episodes/U-C-B-P-Episode-63-Gaming-Fatigue-etrr82" height="102px" width="700px" frameborder="0" scrolling="no"></iframe>
-                </Container>
-                <Container>
-                    <iframe src="https://podcasters.spotify.com/pod/show/under-the-cardboard-box-a/embed/episodes/U-C-B-P-Episode-62-The-Twin-Lies-espc31" height="102px" width="700px" frameborder="0" scrolling="no"></iframe>
-                </Container>
-                <Container>
-                    <iframe src="https://podcasters.spotify.com/pod/show/under-the-cardboard-box-a/embed/episodes/U-C-B-P-Episode-61-New-MGS-V-Update-eqe3o0" height="102px" width="700px" frameborder="0" scrolling="no"></iframe>
-                </Container>
-                <Container>
-                    <iframe src="https://podcasters.spotify.com/pod/show/under-the-cardboard-box-a/embed/episodes/U-C-B-P-Episode-60-epqek3" height="102px" width="700px" frameborder="0" scrolling="no"></iframe>
-                </Container>
-                <Container>
-                    <iframe src="https://podcasters.spotify.com/pod/show/under-the-cardboard-box-a/embed/episodes/U-C-B-P-Episode-59-Bluepoint-Games---Metal-Gear-ep6qvu" height="102px" width="700px" frameborder="0" scrolling="no"></iframe>
+                    <iframe src="https://open.spotify.com/embed/episode/1vaJXg3jl9FuaILUOfxYI3?utm_source=generator" width="85%" height="152" allowFullScreen="allow" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
                 </Container>
                 <hr />
             </div>

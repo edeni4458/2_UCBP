@@ -17,6 +17,7 @@ const Connect = () => {
     return (
         <div>
             <div className="main-connect">
+                <h1>CREATE a form to sign up for email notifications, using a pop-up window</h1>
                 <div className="contact">
                     <h2>Contact</h2>
                     <h5>email</h5>

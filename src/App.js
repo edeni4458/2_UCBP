@@ -26,16 +26,16 @@ function App() {
     <div className="App">
       <MainBar></MainBar>
       <Routes>
-        <Route path="/" element={<MainPage/>}/>
-        <Route path="/view" element={<View />} />
-        <Route path='/create' element={<Create/>} />
-        <Route path='/details/:id' element={<Details/>} />
-        <Route path='/edit/:id' element={<Edit/>} />
-        <Route path='/about' element={<About/>} />
-        <Route path='/connect' element={<Connect/>} />
-        <Route path='/news' element={<CBnews/>} />
-        <Route path='/episodes' element={<Spotify/>} />
-        <Route path='/UCBP' element={<UCBPepisodes/>} />
+        <Route exact path="/" element={<MainPage/>}/>
+        <Route exact path="/view" element={<View />} />
+        <Route exact path='/create' element={<Create/>} />
+        <Route exact path='/details/:id' element={<Details/>} />
+        <Route exact path='/edit/:id' element={<Edit/>} />
+        <Route exact path='/about' element={<About/>} />
+        <Route exact path='/connect' element={<Connect/>} />
+        <Route exact path='/news' element={<CBnews/>} />
+        <Route exact path='/episodes' element={<Spotify/>} />
+        <Route exact path='/UCBP' element={<UCBPepisodes/>} />
       </Routes>
       <BotBar></BotBar>
     </div>

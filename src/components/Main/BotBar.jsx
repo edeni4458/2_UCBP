@@ -1,6 +1,7 @@
 import instagram from '../Main/images/instagram.png'
 import facebook from '../Main/images/fb-icon.png'
 import twitter from '../Main/images/twitter.png'
+import { Link, NavLink } from 'react-router-dom';
 import React from 'react'
 
 const BotBar = () => {
@@ -11,9 +12,9 @@ const BotBar = () => {
                     <div class="container-fluid flex-row">
                         <div class="container-fluid flex-row ">
                             <div class="d-flex justify-content-evenly bd-highlight text-white">
-                                <a class="nav-link active" aria-current="page" href="">Home</a>
-                                <a class="nav-link" href="">About</a>
-                                <a class="nav-link" href="">Connect</a>
+                                <a><Link reloadDocument className='nav-link' to={"/"}>Home</ Link></a>
+                                <a><Link reloadDocument to={"/about"} className='nav-link'>About</ Link></a>
+                                <a><Link reloadDocument to={"/UCBP"} className='nav-link'>Episodes</Link></a>
                             </div>
                         </div>
                     </div>

@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 
 
 import bigBoss from '../images/big-boss.jpg'
-import venomSnake from '../images/venom-snake.jpg'
-import supportMB from '../images/support-mother-base.jpg'
+import metalDelta from '../images/Metal Gear Solid Delta.jpg'
+import oldSnake from '../images/old-snake.jpg'
 
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
@@ -23,26 +23,25 @@ const MainTop = () => {
     return (
         <div>
             <div className="first-bot-width">
-                {/* <h2>React Carousel</h2> */}
+                <h2 className='slider-title'>There's more to UCBP...</h2>
                 <Slider {...settings} className='slider-set-main'>
                     <div className='slider-set'>
-                        <img className='mid-pic' src={bigBoss} alt="Image 1" />
-                        <h4>Share what are your favorite Snake tales.</h4>
+                        <img className='mid-pic' src={bigBoss} alt="Image 1"/>
+                        <h4> <Link reloadDocument className='slider-link'>Share your favorite Snake tales.</Link></h4>
                     </div>
                     <div className='slider-set'>
-                        <img className='mid-pic' src={venomSnake} alt="Image 2" />
-                        <h4><Link to={"/news"} className='nav-link'>What's new in the Metal Gear universe...</Link></h4>
+                        <img className='mid-picB' src={metalDelta} alt="Image 2"/>
+                        <h4><Link reloadDocument to={"/news"} className='slider-link'>What's new with Metal Gear.</Link></h4>
                     </div>
                     <div className='slider-set'>
-                        <img className='mid-pic' src={supportMB} alt="Image 3" />
-                        <h4><Link to={"/about"} className='nav-link'>Learn more about who we are.</ Link></h4>
+                        <img className='mid-pic' src={oldSnake} alt="Image 3"/>
+                        <h4><Link reloadDocument to={"/about"} className='slider-link'>Learn more about who we are.</Link></h4>
                     </div>
                     {/* Add more slides as needed */}
                 </Slider>
             </div>
         </div>
     );
-
 }
 
 export default MainTop

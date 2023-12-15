@@ -2,8 +2,14 @@
 
 .App {
   text-align: center;
-  background-color: #282c34;
+  background-color: black;
   font-family: 'Montserrat', sans-serif;
+  color: white;
+  background-image: url(./components/Main/images/background\ image\ 4.jpg);
+  /* background-repeat: repeat-x; */
+  /* background-size: cover; */
+  background-size:contain;
+  background-repeat:no-repeat;
 }
 
 .App-logo {
