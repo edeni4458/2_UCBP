@@ -13,8 +13,8 @@ const AboutMore = () => {
                 </div>
                 <div className="support-text-container">
                     <img id='img-size' src={motherBase} alt="Metal Gear Solid Delta Naked Snake" />
-                    <h6>Enter the link below to Join and support our Mother Base</h6>
-                    <a id='text' className='support-text' href="https://www.patreon.com/UCBPodcast/membership" target='_blank'>DEPLOY HERE</a>
+                    <h6>Enter the link below to join and support our Mother Base</h6>
+                    <a id='text' className='support-text' href="https://www.patreon.com/UCBPodcast/membership" target='_blank' rel="noreferrer">DEPLOY HERE</a>
                 </div>
             </div>
         </div>
