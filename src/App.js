@@ -16,6 +16,7 @@ import Spotify from './components/MainBarTags/Spotify';
 import UCBPepisodes from './components/UCBPepisodes';
 import MainBar from './components/Main/MainBar';
 import MainPage from './components/Main/MainPage';
+import ThanksModal from './components/MainBarTags/ThanksModal';
 
 
 
@@ -37,6 +38,7 @@ function App() {
         <Route exact path='/news' element={<CBnews/>} />
         <Route exact path='/episodes' element={<Spotify/>} />
         <Route exact path='/UCBP' element={<UCBPepisodes/>} />
+        <Route exact path='/thankyou' element={<ThanksModal/>}/>
       </Routes>
       <BotBar></BotBar>
     </div>

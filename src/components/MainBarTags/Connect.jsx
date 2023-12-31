@@ -17,7 +17,7 @@ const Connect = () => {
     const [openModal, setOpenModal] = useState(false)
 
     return (
-        <div>
+        <div className="main-connect-con">
                 {openModal && <ModalConct closeModal={setOpenModal} />}
 
             <div className="main-connect">

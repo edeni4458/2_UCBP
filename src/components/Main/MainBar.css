@@ -72,18 +72,20 @@
 
 
     .bottom-bar {
+        margin: 0 auto;
         background-color: #DE1A1A;
         height: 10em;
         margin: 0 auto;
         padding: 1em;
     }
     .bottom-nav {
+        margin: 0 auto;
         display: flex;
         justify-content: space-between;
         width: 45%;
-        margin: 0 auto;
     }
     .nav-link {
+        margin: 0 auto;
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -91,11 +93,11 @@
         height: 5em auto;
     }
     .social-mediaB {
+        margin: 0 auto;
         display: flex;
         justify-content: space-evenly;
-        width: 45%;
-        /* margin: 0 auto; */
-        margin-left: 24.8em;
+        align-items: center;
+        width: 100%;
     }
     .bot-social-logo {
         height: 40px;
@@ -120,6 +122,7 @@
         border-radius: 10px;
         margin-bottom: 5em;
         display: flex;
+        justify-content: space-between;
         box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
     }
 
@@ -338,8 +341,23 @@
         font-weight: 600;
     }
 
-
-
+/* Create */
+.create-container {
+    margin: 0 auto;
+    margin-top: 3em;
+    height: 100%;
+    width: 100%;
+}
+.construction {
+    margin-bottom: 2em;
+    width: 100%;
+}
+#cons-image {
+    margin-top: 1em;
+    width: 30em;
+    height: 40em;
+    border-radius: 8px
+}
 
 
 
@@ -390,6 +408,7 @@
         height: 75px;
         width: 750px;
         margin-top: 15px;
+        margin-right: 10px;
     }
 
     .support-text-container {
@@ -491,11 +510,12 @@
     }
 
     .top-header {
+        margin: 0 auto;
         display: flex;
         justify-content: space-between;
         background-color: #282c3474;
         color: whitesmoke;
-        width: 81em;
+        width: 100%;
         margin: 0 auto;
         border-radius: 10px;
         border: 2px solid gray;
@@ -557,8 +577,9 @@
     }
 
     /* Connect */
-    .main-connect {
-        margin: 0 auto;
+    .main-connect-con {
+        /* margin: 0 auto; */
+        width: 100%;
         margin-top: 3em;
     }
 
@@ -591,11 +612,11 @@
     }
 
     .codec-container {
-        margin-top: 50px;
+        margin: 0 auto;
+        margin-top: 2em;
         width: 80%;
         height: 10em;
         background-color: #0a66c278;
-        margin: 0 auto;
         margin-bottom: 1em;
         border-radius: 10px;
         border: 2px solid gray;
@@ -732,6 +753,7 @@
         border-radius: 8px;
         font-size: 20px;
         cursor: pointer;
+        text-transform: lowercase;
     }
 
     .signUp-btn:hover {
@@ -761,4 +783,43 @@
     .x-btn {
         color: black;
         font-family: monospace;
+    }
+
+    /* ThanksModal */
+
+    .main-containerTks {
+        margin-top: 3em;
+        width: 100%;
+    }
+    .thks-container {
+        margin: 0 auto;
+        margin-bottom: 8em;
+        width: 85%;
+        height: 100%
+    }
+    .thks-message {
+        display: flex;
+        justify-content: space-between;
+        background-color: #282c3474;
+        color: whitesmoke;
+        width: 81em;
+        margin: 0 auto;
+        border-radius: 10px;
+        border: 2px solid gray;
+        height: 25em;
+    }
+    #signUp-text {
+        margin-left: 3em;
+        margin-top: 2em;
+    }
+    #thks-image {
+        height: 375px;
+        margin-top: 10px;
+        margin-right: 10px;
+        border-radius: 10px;
+    }
+    #thks-margin {
+        
+        text-align: left;
+        font-weight: bolder;
     }

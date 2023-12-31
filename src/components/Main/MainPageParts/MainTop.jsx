@@ -26,7 +26,7 @@ const MainTop = () => {
                 <Slider {...settings} className='slider-set-main'>
                     <div className='slider-set'>
                         <img className='mid-pic' src={bigBoss} alt=" 1"/>
-                        <h4> <Link reloadDocument className='slider-link'>Share your favorite Snake tales.</Link></h4>
+                        <h4> <Link reloadDocument to={"/create"} className='slider-link'>Share your favorite Snake tales.</Link></h4>
                     </div>
                     <div className='slider-set'>
                         <img className='mid-picB' src={metalDelta} alt=" 2"/>
