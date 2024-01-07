@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom';
-import foxUnit from './Main/images/fox-unit.jpg'
+import foxUnit from '../../../images/fox-unit.jpg'
 import axios from 'axios';
 
 

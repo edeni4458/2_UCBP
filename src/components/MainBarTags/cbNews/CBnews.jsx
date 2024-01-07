@@ -1,6 +1,9 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
-import delta from "../Main/images/Metal Gear Solid Delta.jpg"
+import delta from "../../../images/Metal Gear Solid Delta.jpg"
+
+import './cbNews.css'
+
 
 const CBnews = () => {
     return (

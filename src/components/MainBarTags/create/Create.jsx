@@ -1,7 +1,7 @@
 // import { Link, useNavigate } from 'react-router-dom'
 import React from 'react'
 // import axios from 'axios'
-import underCons from "./Main/images/under-construction-2.jpg"
+import underCons from "../../../images/under-construction-2.jpg"
 
 const Create = () => {
     // const [title, setTitle] = useState("")

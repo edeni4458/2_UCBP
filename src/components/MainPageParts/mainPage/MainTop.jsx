@@ -2,13 +2,14 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 
 
-import bigBoss from '../images/big-boss.jpg'
-import metalDelta from '../images/Metal Gear Solid Delta.jpg'
-import oldSnake from '../images/old-snake.jpg'
+import bigBoss from '../../../images/big-boss.jpg'
+import metalDelta from '../../../images/Metal Gear Solid Delta.jpg'
+import oldSnake from '../../../images/old-snake.jpg'
 
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import '../mainPage/mainTop.css'
 
 const MainTop = () => {
 

@@ -2,6 +2,8 @@ import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import emailjs from 'emailjs-com'
 
+import './modalConct.css'
+
 
 const ModalConct = ({ closeModal }) => {
     const navigate = useNavigate()

@@ -1,8 +1,10 @@
-import instagram from '../Main/images/instagram.png'
-import facebook from '../Main/images/fb-icon.png'
-import twitter from '../Main/images/twitter.png'
+import instagram from '../../../images/instagram.png'
+import facebook from '../../../images/fb-icon.png'
+import twitter from '../../../images/twitter.png'
 import { Link } from 'react-router-dom';
 import React from 'react'
+
+import '../botBar/botBar.css'
 
 const BotBar = () => {
     return (

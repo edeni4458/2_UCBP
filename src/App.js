@@ -4,16 +4,17 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import Connect from './components/MainBarTags/connect/Connect';
 import CBnews from './components/MainBarTags/cbNews/CBnews';
 import About from './components/MainBarTags/about/About';
-import BotBar from './components/Main/MainPageParts/botBar/BotBar';
 import Details from './components/MainBarTags/details/Details';
 import Create from './components/MainBarTags/create/Create';
 import View from './components/MainBarTags/view/View';
 import Edit from './components/MainBarTags/edit/Edit';
 import Spotify from './components/MainBarTags/ucbpEpisodes/Spotify';
 import UCBPepisodes from './components/MainBarTags/ucbpEpisodes/UCBPepisodes';
-import MainBar from './components/Main/MainPageParts/mainBar/MainBar';
-import MainPage from './components/Main/MainPageParts/mainPage/MainPage';
 import ThanksModal from './components/MainBarTags/modals/ThanksModal';
+
+import MainBar from './components/MainPageParts/mainBar/MainBar';
+import BotBar from './components/MainPageParts/botBar/BotBar';
+import MainPage from './components/MainPageParts/mainPage/MainPage';
 
 import './App.css';
 

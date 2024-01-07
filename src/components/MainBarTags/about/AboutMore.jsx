@@ -1,5 +1,6 @@
 import React from 'react'
-import motherBase from '../Main/images/support-mother-base.jpg'
+import motherBase from '../../../images/support-mother-base.jpg'
+import '../about/aboutMore.css'
 
 
 const AboutMore = () => {
@@ -12,7 +13,7 @@ const AboutMore = () => {
                     <h5> We are UCBP, Under the Card Board Box Podcast and MGS is our business.</h5>
                 </div>
                 <div className="support-text-container">
-                    <img id='img-size' src={motherBase} alt="Metal Gear Solid Delta Naked Snake" />
+                    <img id='img-size' src={motherBase} alt="Metal Gear Solid Delta mother base" />
                     <h6>Enter the link below to join and support our Mother Base</h6>
                     <a id='text' className='support-text' href="https://www.patreon.com/UCBPodcast/membership" target='_blank' rel="noreferrer">DEPLOY HERE</a>
                 </div>

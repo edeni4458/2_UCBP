@@ -1,5 +1,7 @@
 import React from 'react'
-import thanksVenom from '../Main/images/thumbs-up-venom.jpg'
+import thanksVenom from '../../../images/thumbs-up-venom.jpg'
+
+import './thanksModal.css'
 
 const ThanksModal = () => {
     return (

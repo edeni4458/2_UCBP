@@ -1,6 +1,8 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
 
+import './ucbpEpisodes.css'
+
 const UCBPepisodes = () => {
 
 

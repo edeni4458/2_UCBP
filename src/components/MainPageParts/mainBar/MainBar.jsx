@@ -1,8 +1,10 @@
 import { Link, NavLink } from 'react-router-dom';
-import ucbpLogo from '../images/ucbp-logo.png'
+import ucbpLogo from '../../../images/ucbp-logo.png'
 
 import React, { useState } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
+
+import './mainbar.css'
 
 
 const NavList = () => (
