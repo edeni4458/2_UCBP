@@ -1,0 +1,84 @@
+/* C-B News */
+
+.mainCB-container {
+    margin-top: 3em;
+    width: 100%;
+}
+
+.news-container {
+    margin: 0 auto;
+    width: 85%;
+    height: 100%
+}
+
+#h3-margin {
+    text-align: right;
+    font-weight: bolder;
+}
+
+.top-header {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #282c3474;
+    color: whitesmoke;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 2px solid gray;
+    height: 25em;
+}
+
+.top-header:hover {
+    background-color: #282c34a9;
+
+}
+
+.video-container {
+    margin: 0 auto;
+    background: rgba(56, 106, 198, 0.428);
+    border-radius: 10px;
+    margin-bottom: 1em;
+    margin-top: 3em;
+    height: 30em;
+    width: 85%;
+    border: 2px solid gray;
+}
+
+.video-container:hover {
+    background-color: rgba(100, 148, 237, 0.363);
+}
+
+.news-video {
+    display: flex;
+    width: 100%;
+}
+
+.top-header>h3 {
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+#img-size {
+    height: 375px;
+    margin-top: 10px;
+    margin-right: 3px;
+}
+
+#delta-reaction {
+    height: 350px;
+    width: 400px;
+    margin-top: 4em;
+    margin-left: 7em;
+    border-radius: 10px;
+    transition: 1.0s;
+    z-index: 3;
+}
+
+#delta-reaction:hover {
+    transform: scale(1.1);
+}
+
+.h4-margin {
+    font-weight: bolder;
+}

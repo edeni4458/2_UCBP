@@ -1,23 +1,21 @@
 import {Routes, Route} from 'react-router-dom';
 import "bootstrap/dist/css/bootstrap.min.css"
 
-import Connect from './components/MainBarTags/Connect';
-import CBnews from './components/MainBarTags/CBnews';
-import About from './components/MainBarTags/About';
-import "bootstrap/dist/css/bootstrap.min.css";
-import BotBar from './components/Main/BotBar';
-import Details from './components/Details';
-import Create from './components/Create';
-import './components/Main/MainBar.css'
-import View from './components/View';
-import Edit from './components/Edit';
-import './App.css';
-import Spotify from './components/MainBarTags/Spotify';
-import UCBPepisodes from './components/UCBPepisodes';
-import MainBar from './components/Main/MainBar';
-import MainPage from './components/Main/MainPage';
-import ThanksModal from './components/MainBarTags/ThanksModal';
+import Connect from './components/MainBarTags/connect/Connect';
+import CBnews from './components/MainBarTags/cbNews/CBnews';
+import About from './components/MainBarTags/about/About';
+import BotBar from './components/Main/MainPageParts/botBar/BotBar';
+import Details from './components/MainBarTags/details/Details';
+import Create from './components/MainBarTags/create/Create';
+import View from './components/MainBarTags/view/View';
+import Edit from './components/MainBarTags/edit/Edit';
+import Spotify from './components/MainBarTags/ucbpEpisodes/Spotify';
+import UCBPepisodes from './components/MainBarTags/ucbpEpisodes/UCBPepisodes';
+import MainBar from './components/Main/MainPageParts/mainBar/MainBar';
+import MainPage from './components/Main/MainPageParts/mainPage/MainPage';
+import ThanksModal from './components/MainBarTags/modals/ThanksModal';
 
+import './App.css';
 
 
 

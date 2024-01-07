@@ -1,0 +1,54 @@
+
+/* AboutMore */
+.mid-about-div {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-bottom: 1em;
+    height: 30em;
+    width: 80%;
+    background: linear-gradient(#30353eaf, black);
+    padding: 2em;
+    border: 2px solid gray;
+}
+
+.mid-about-div:hover {
+    background-color: #30353e;
+}
+
+.container-subText {
+    margin: 0 auto;
+    height: 75px;
+    width: 750px;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+.support-text-container {
+    margin: 0 auto;
+    height: 75px;
+    width: 750px;
+}
+
+.support-text-container>h6 {
+    color: whitesmoke;
+    font-weight: bolder;
+}
+
+.support-text {
+    color: whitesmoke;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+#text:hover {
+    color: #DE1A1A;
+    font-weight: bolder;
+    border-bottom: 2px solid #DE1A1A;
+}
+
+#img-size {
+    border-radius: 10px;
+    margin-bottom: 5px;
+}

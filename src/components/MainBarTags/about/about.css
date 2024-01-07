@@ -1,0 +1,23 @@
+
+/* About page */
+.container-About-main {
+    margin-top: 3em;
+}
+
+.middle-container {
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 5em;
+}
+
+.h4-margin {
+    /* margin-top: 25px; */
+    /* margin-bottom: 25px; */
+    text-align: left;
+}
+
+.container-about {
+    border-radius: 10px;
+    height: 25em;
+    width: 50em;
+}

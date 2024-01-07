@@ -1,0 +1,112 @@
+
+.nav-bar-main {
+    height: 10em;
+    background: linear-gradient(to bottom right, #30353e, black);
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 2rem 6rem;
+    box-shadow: 5px 5px 20px black;
+}
+
+/* Tablet */
+@media screen and (max-width: 1950px) {
+    .nav-bar-list {
+        display: none;
+    }
+
+    .nav-bar-main {
+        display: flex;
+    }
+}
+
+/*  */
+@media screen and (max-width: 700px) {
+    .nav-list {
+        display: none;
+    }
+
+    #nav-title {
+        font-size: 0cap;
+    }
+
+    .nav-bar-main {
+        padding: 2rem 4rem;
+    }
+}
+
+/* Phone */
+@media screen and (max-width: 550px) {
+    .nav-bar-main {
+        padding: 2rem;
+    }
+
+    .nav-right {
+        display: none;
+    }
+
+    .nav-list {
+        display: none;
+    }
+
+    .nav-bar-list_container {
+        top: 20px;
+    }
+
+    .nav-bar-list {
+        display: block;
+    }
+    
+}
+
+#nav-title {
+    font-size: xx-large;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    width: 70%;
+    margin-right: 5em;
+}
+
+#ucbp-logo {
+    height: 5em;
+    width: auto;
+    opacity: .5;
+    transition: opacity 0.3s ease-in-out;
+    margin-right: 1em;
+    border-radius: 10px;
+}
+
+#ucbp-logo:hover {
+    opacity: 1;
+}
+
+.nav-right {
+    width: 80%;
+    margin-top: 25px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    font-size: large;
+    font-weight: 600;
+}
+
+.nav-list>li:hover {
+    margin-bottom: 10px;
+    color: #DE1A1A;
+    position: relative;
+    transition: 0.5s;
+    border-bottom: 2px solid lightgray;
+    border-top: 2px solid lightgray;
+}
+
+.nav-link {
+    font-style: none;
+    font-size: large;
+    font-weight: 600;
+    text-decoration: none;
+}
+
