@@ -9,7 +9,7 @@
 
 .first-top-width {
     max-height: 22em;
-    width: 92%;
+    width: 90%;
     margin: 0 auto;
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4));
     border-radius: 10px;
@@ -103,7 +103,6 @@
 .first-mid-width {
     height: 32em;
     max-height: 50em;
-    min-height: 25em;
     width: clamp(100%, 100%, 100%);
     background: linear-gradient(to bottom right, #ff8833, #fffa66);
     display: flex;
@@ -137,6 +136,14 @@
     transform: rotateY(180deg) */
 
 }
+.episode-title {
+    text-align: center;
+    margin-top: 1.5em;
+    /* padding: 1em; */
+    color: white;
+    font-weight: bolder;
+    width: 100%;
+}
 
 
 
@@ -166,14 +173,7 @@
 }
 
 
-.episode-title {
-    text-align: center;
-    margin-top: 1.5em;
-    /* padding: 1em; */
-    color: white;
-    font-weight: bolder;
-    width: 100%;
-}
+
 
 .mid-header {
     text-align: left;
@@ -186,6 +186,7 @@
 @media screen and (max-width: 1050px) {
     .first-mid-width {
         flex-direction: column;
+        margin-bottom: 0;
 
     }
     .sub-text {
@@ -210,6 +211,7 @@
 @media screen and (max-width: 650px) {
     .first-mid-width {
         flex-direction: column;
+        margin-bottom: 0;
 
     }
     .sub-text {
@@ -237,7 +239,7 @@
         /* height: 500px; */
     }
     .first-mid-width {
-        height: 15rem;
+        margin-bottom: 0;
     }
     .sub-text {
         display: flex;
@@ -289,4 +291,32 @@
         font-size: 15px;
         margin-top: 2rem;
     }
+    /* Yellow Slot */
+    .first-mid-width {
+        height: 300px;
+    }
+    .first-mid-width > h3 {
+        text-align: center;
+        border-bottom: 3px solid lightgray;
+
+    }
+    .mid-header {
+        font-size: 20px;
+        border-bottom: none;
+        width: 100%;
+        text-align: center;
+    }
+    .video-flex {
+        flex-direction:row;
+        gap: 12px;
+    }
+    .fav-episodes {
+        width: 115px;
+        height: 115px;
+    }
+    .episode-title {
+        font-size: 12px;
+        
+    }
+
 } 

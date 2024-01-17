@@ -22,26 +22,28 @@ const MainTop = () => {
     };
 
     return (
-        <div>
-            <div className="first-bot-width">
+
+        <div className="first-bot-width">
+            <h2 className='slider-title'>There's more to UCBP...</h2>
+            <div className="slider-container">
                 <Slider {...settings} className='slider-set-main'>
                     <div className='slider-set'>
-                        <img className='mid-pic' src={bigBoss} alt=" 1"/>
+                        <img className='mid-pic' src={bigBoss} alt=" 1" />
                         <h4> <Link reloadDocument to={"/create"} className='slider-link'>Share your favorite Snake tales.</Link></h4>
                     </div>
                     <div className='slider-set'>
-                        <img className='mid-picB' src={metalDelta} alt=" 2"/>
+                        <img className='mid-picB' src={metalDelta} alt=" 2" />
                         <h4><Link reloadDocument to={"/news"} className='slider-link'>What's new with Metal Gear.</Link></h4>
                     </div>
                     <div className='slider-set'>
-                        <img className='mid-pic' src={oldSnake} alt=" 3"/>
+                        <img className='mid-pic' src={oldSnake} alt=" 3" />
                         <h4><Link reloadDocument to={"/about"} className='slider-link'>Learn more about who we are.</Link></h4>
                     </div>
                     {/* Add more slides as needed */}
                 </Slider>
-                <h2 className='slider-title'>There's more to UCBP...</h2>
             </div>
         </div>
+
     );
 }
 

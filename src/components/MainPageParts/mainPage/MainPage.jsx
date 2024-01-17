@@ -52,7 +52,7 @@ const MainPage = () => {
                     <h4>Choose from one of your favorite<br></br>podcast sites.</h4>
                 </div>
             </div>
-            {/* <div className="first-mid-width">
+            <div className="first-mid-width">
                 <Container>
                     <h3 className='mid-header'>Here are the top viewed episodes.</h3>
                     <div className="video-flex">
@@ -71,7 +71,7 @@ const MainPage = () => {
                     </div>
                 </Container>
             </div>
-            <MainTop></MainTop> */}
+            <MainTop></MainTop>
         </div>
     )
 }
