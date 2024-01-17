@@ -20,11 +20,15 @@ const MainPage = () => {
         <div className="main-container">
             <div className="first-top-width">
                 <div className="sub-text">
-                    <h2>We are UCBP and MGS is our business.</h2>
-                    <h3><span><Link reloadDocument id='link-to-connect' to={"/connect"} >Join us</Link></span>under the cardboard box.</h3>
-                    <h5>Watch or listen to your favorite episodes, now with the ability to add your comments.</h5>
+                    <div className="text-container">
+                        <h2>We are UCBP and MGS is our business.</h2>
+                        <h3><span><Link reloadDocument id='link-to-connect' to={"/connect"} >Join us</Link></span> under the cardboard box.</h3>
+                        <h5>Watch or listen to your favorite episodes, now with the ability to add your comments.</h5>
+                    </div>
+                    <div className="main-image-container">
+                        <img className="fix-image" src={phatomCigar4} alt="big boss cigar" />
+                    </div>
                 </div>
-                <img className="fix-image" src={phatomCigar4} alt="big boss cigar" />
             </div>
             <div className="top-sub-container">
                 <div className="social-media-links">
@@ -48,7 +52,7 @@ const MainPage = () => {
                     <h4>Choose from one of your favorite<br></br>podcast sites.</h4>
                 </div>
             </div>
-            <div className="first-mid-width">
+            {/* <div className="first-mid-width">
                 <Container>
                     <h3 className='mid-header'>Here are the top viewed episodes.</h3>
                     <div className="video-flex">
@@ -67,7 +71,7 @@ const MainPage = () => {
                     </div>
                 </Container>
             </div>
-            <MainTop></MainTop>
+            <MainTop></MainTop> */}
         </div>
     )
 }

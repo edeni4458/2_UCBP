@@ -2,6 +2,7 @@
 import React from 'react'
 // import axios from 'axios'
 import underCons from "../../../images/under-construction-2.jpg"
+import './create.css'
 
 const Create = () => {
     // const [title, setTitle] = useState("")
