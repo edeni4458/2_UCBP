@@ -10,7 +10,7 @@ import './mainbar.css'
 const NavList = () => (
     <>
         <div className='nav-right'>
-            <ul className='nav-list'>
+            <ul className='nav-list scale-up-center'>
                 <li className="list-margin">
                     <NavLink className='nav-link' to="/"
                         end
@@ -92,11 +92,11 @@ const MainBar = () => {
             </div>
             <div className='nav-bar-list'>
                 {toggleMenu
-                    ? <RiCloseLine color="white" size={27} onClick={() => setToggleMenu(false)} />
-                    : <RiMenu3Line color="white" size={27} onClick={() => setToggleMenu(true)} />
+                    ? <RiCloseLine color="white" size={22} onClick={() => setToggleMenu(false)} />
+                    : <RiMenu3Line color="white" size={22} onClick={() => setToggleMenu(true)} />
                 }
                 {toggleMenu && (
-                    <div className='nav-bar-list scale-up-center'>
+                    <div className='nav-bar-mobile-menu '>
                         <NavList />
                     </div>
                 )}

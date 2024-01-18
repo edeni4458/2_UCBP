@@ -25,22 +25,21 @@
     align-items: center;
     list-style-type: none;
     font-size: large;
-    font-weight: 600;
+    font-weight: 900;
 }
 .nav-list>li:hover {
     color: #DE1A1A;
     position: relative;
     transition: 0.5s;
-    border-bottom: 2px solid lightgray;
-    border-top: 2px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    border-top: 1px solid lightgray;
 }
 
 .nav-link {
-    font-weight: 600;
+    font-weight: 900;
 }
 .list-margin {
     margin-right: 40px;
-    /* padding: 5px; */
 }
 
 #nav-title {
@@ -77,15 +76,15 @@
     background-color: #DE1A1A;
     color: white;
 }
-#nav-title {
-    font-size: px;
-    line-height: 29px;
-}
+
 .nav-bar-list {
-    margin-left: 1rem;
-    margin-top: 2rem;
+    /* margin-left: 1rem; */
     display: none;
     position: relative;
+}
+.nav-bar-mobile-menu {
+    display: flex;
+    /* flex-direction: column; */
 }
 
 @media screen and (max-width: 1960px) {
@@ -95,9 +94,26 @@
 }
 
 /* Tablet */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
     .nav-bar-main {
         padding: 2rem 4rem;
+    }
+    #nav-title {
+        font-size:22px;
+    }
+    #ucbp-logo {
+        height: 4em;
+        border-radius: 7px;
+    }
+    .nav-right {
+        display: none;
+    }
+    .nav-link {
+        font-size: 15px;
+    }
+    .nav-bar-list {
+        display: block;
+        margin-top: 1rem;
     }
 }
 
@@ -108,17 +124,38 @@
     .nav-bar-main {
         padding: 2rem;
     }
-
-    .nav-right {
-        display: none;
+    .nav-list {
+        flex-direction: column;
+        right: 0;
+        background: #282c3474;
+        border-radius: 10px;
+        position:absolute;
+        width: 6rem;
+        padding-right: 16px;
+    }
+    .nav-link {
+        width: 4.0rem;
+        flex-direction: column;
+        align-items: center;
+        font-size: 10px;
     }
 
     #nav-title {
         font-size:small;
     }
 
-    .nav-bar-list {
-        display: block;
+    .nav-bar-mobile-menu > .nav-right{
+        display:contents;
     }
-
+    .list-margin{
+        margin-right: 0px;
+        
+    }
+    #ucbp-logo {
+        height: 2em;
+        border-radius: 5px;
+    }
+    .nav-bar-list {
+        margin-bottom: 1.5rem;
+    }
 }
