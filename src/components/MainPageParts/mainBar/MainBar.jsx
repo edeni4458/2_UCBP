@@ -12,7 +12,7 @@ const NavList = () => (
         <div className='nav-right'>
             <ul className='nav-list'>
                 <li className="list-margin">
-                    <NavLink className='nav-link' to="/"
+                    <NavLink reloadDocument className='nav-link' to="/"
                         end
                         style={({ isActive, isPending }) => {
                             return {
@@ -24,7 +24,7 @@ const NavList = () => (
                     </NavLink>
                 </li>
                 <li className="list-margin">
-                    <NavLink className='nav-link' to="about"
+                    <NavLink reloadDocument className='nav-link' to="about"
                         end
                         style={({ isActive, isPending }) => {
                             return {
@@ -36,7 +36,7 @@ const NavList = () => (
                     </NavLink>
                 </li>
                 <li className="list-margin">
-                    <NavLink className='nav-link' to="/UCBP"
+                    <NavLink reloadDocument className='nav-link' to="/UCBP"
                         end
                         style={({ isActive, isPending }) => {
                             return {
@@ -48,7 +48,7 @@ const NavList = () => (
                     </NavLink>
                 </li>
                 <li className="list-margin">
-                    <NavLink className='nav-link' to="/news"
+                    <NavLink reloadDocument className='nav-link' to="/news"
                         end
                         style={({ isActive, isPending }) => {
                             return {

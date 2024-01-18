@@ -20,3 +20,63 @@
     height: 25em;
     width: 50em;
 }
+
+
+/* Ipad Pro */
+@media screen and (max-width: 1024px) {
+    .middle-container {
+        width: 75%;
+    }
+    .container-about {
+        width: 40em;
+    }
+}
+/* Ipad Mini */
+@media screen and (max-width: 768px) {
+    .middle-container {
+        width: 55%;
+    }
+    .container-About-main {
+        width: 85%;
+        margin: 0 auto;
+        margin-top:2rem ;
+    }
+    .middle-container {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .container-about {
+        width: 30em;
+    }
+    .h4-margin {
+        font-weight: bolder;
+        text-align: center;
+    }
+}
+
+/* Phone */
+@media screen and (max-width: 550px) {
+    .container-about {
+        padding: 5px;
+        width: 20em;
+        height: 20em;
+        margin-right: 5rem;
+    }
+    .h4-margin {
+        font-weight: bolder;
+        font-size: 20px;
+    }
+}
+/* An Even Smaller Phone */
+@media screen and (max-width: 360px) {
+    .container-about {
+        padding: 5px;
+        width: 15em;
+        height: 15em;
+        /* margin-right: 5rem; */
+    }
+    .h4-margin {
+        font-weight: bolder;
+        font-size: 20px;
+    }
+}
