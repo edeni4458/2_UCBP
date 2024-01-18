@@ -10,7 +10,7 @@ import './mainbar.css'
 const NavList = () => (
     <>
         <div className='nav-right'>
-            <ul className='nav-list scale-up-center'>
+            <ul className='nav-list'>
                 <li className="list-margin">
                     <NavLink className='nav-link' to="/"
                         end
@@ -90,7 +90,7 @@ const MainBar = () => {
                     <NavList />
                 </div>
             </div>
-            <div className='nav-bar-list'>
+            <div className='nav-bar-list scale-up'>
                 {toggleMenu
                     ? <RiCloseLine color="white" size={22} onClick={() => setToggleMenu(false)} />
                     : <RiMenu3Line color="white" size={22} onClick={() => setToggleMenu(true)} />

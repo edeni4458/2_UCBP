@@ -63,3 +63,22 @@
     transform: rotate(360deg);
   }
 }
+@media screen and (max-width: 1960px) {
+
+}
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+
+}
+
+/* Phone */
+@media screen and (max-width: 550px) {
+
+}
+
+
+/* An Even Smaller Phone */
+@media screen and (max-width: 375px) {
+
+}

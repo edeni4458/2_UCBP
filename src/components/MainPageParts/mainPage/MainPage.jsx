@@ -57,15 +57,15 @@ const MainPage = () => {
                     <h3 className='mid-header'>Here are the top viewed episodes.</h3>
                     <div className="video-flex">
                         <div className="">
-                            <iframe className='fav-episodes' src="https://www.youtube.com/embed/-0zVUhJ84cs?si=0C7UBQU7fzIDhBf8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                            <iframe className='fav-episodes' src="https://www.youtube.com/embed/-0zVUhJ84cs?si=0C7UBQU7fzIDhBf8" title="Episode 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                             <h4 className='episode-title'>Episode 1</h4>
                         </div>
                         <div className="">
-                            <iframe className='fav-episodes' src="https://www.youtube.com/embed/tqG9FIDJdy8?si=UOiX9VLM_cX8ODRM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                            <iframe className='fav-episodes' src="https://www.youtube.com/embed/tqG9FIDJdy8?si=UOiX9VLM_cX8ODRM" title="Episode 35" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                             <h4 className='episode-title'>Episode 35</h4>
                         </div>
                         <div className="">
-                            <iframe className='fav-episodes' src="https://www.youtube.com/embed/X12vUzWN8c4?si=UThlu9HQ7bF9wKY1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                            <iframe className='fav-episodes' src="https://www.youtube.com/embed/X12vUzWN8c4?si=UThlu9HQ7bF9wKY1" title="Episode 16" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                             <h4 className='episode-title'>Episode 16</h4>
                         </div>
                     </div>
