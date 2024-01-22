@@ -46,20 +46,15 @@
 .top-sub-container {
     display: flex;
     justify-content: space-around;
+    /* align-items: center; */
     margin: 0 auto;
-    width: 100%;
+    width: 80%;
 }
 
-.social-media-header {
-    flex: .5;
-    color: white;
-    width: 15%;
-}
 
 .social-media-header>h4 {
     font-size: xx-large;
     font-weight: bolder;
-
 }
 
 .social-media-links {
@@ -70,7 +65,7 @@
 
 .social-media-cards {
     background-color: rgba(245, 245, 245, 0.285);
-    margin-right: 1em;
+    margin: 1em;
     border-radius: 10px;
     position: relative;
     transition: 0.7s;
@@ -105,8 +100,6 @@
     background: linear-gradient(to bottom right, #ff8833, #fffa66);
     display: flex;
     margin-top: 10.5em;
-    /* border-top: 2px solid white ;
-    border-bottom: 2px solid white ; */
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -122,7 +115,6 @@
     width: 200px;
     border-radius: 10%;
     position: relative;
-    /* color: #262626; */
     transition: 1.0s;
     z-index: 3;
 }
@@ -137,13 +129,10 @@
 .episode-title {
     text-align: center;
     margin-top: 1.5em;
-    /* padding: 1em; */
     color: white;
     font-weight: bolder;
     width: 100%;
 }
-
-
 
 .fix-imageBG1 {
     object-fit: cover;
@@ -170,9 +159,6 @@
     cursor: pointer;
 }
 
-
-
-
 .mid-header {
     text-align: left;
     margin-top: 2em;
@@ -182,10 +168,13 @@
 }
 
 @media screen and (max-width: 1050px) {
+    .first-top-width{
+        width: 85%;
+        margin-bottom: 1rem;
+    }
     .first-mid-width {
         flex-direction: column;
         margin-bottom: 0;
-
     }
     .sub-text {
         display: flex;
@@ -193,48 +182,86 @@
         margin: 0 0 3rem;
     }
     .text-container > h2,h3,h5 { 
-        font-size: 15px;
-        line-height: 15px;
+        font-size: 20px;
+        line-height: 22px;
         text-align: center;
+        margin: 2.5rem;
     }
     .fix-image {
         width: 12rem;
     }
     .top-sub-container {
         flex-direction: column;
+        width: 75%;
+    }
+    .social-media-cards {
+        margin-top: 2rem;
+    }
+    .social-media-header> h4 {
+        /* font-size: 15px; */
+        margin-top: 2rem;
+        text-align: center;
+    }
+    /* Yellow Slot */
+    .first-mid-width {
+        height: 380px;
+        margin-top: 4rem;
+    }
+    .mid-header {
+        font-size: 25px;
+        border-bottom: none;
+        /* width: 70%; */
+        margin: 0 auto;
+        margin-top: 3rem;
+    }
+    .video-flex {
+        flex-direction:row;
+        gap: 8rem;
+    }
+    .fav-episodes {
+        width: 135px;
+        height: 135px;
+    }
+    .episode-title {
+        font-size: 22px;
+        
     }
 
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 780px) {
     .first-mid-width {
         flex-direction: column;
         margin-bottom: 0;
-
     }
+
     .sub-text {
         display: flex;
         justify-content: space-around;
         margin: 0 0 3rem;
     }
-    .text-container > h2,h3,h5 { 
-        font-size: 15px;
-        line-height: 15px;
-        text-align: center;
-    }
     .fix-image {
         width: 12rem;
     }
     .text-container > h2,h3,h5 { 
-        font-size: 10px;
+        font-size: 18px;
+        line-height: 55px;
         text-align: center;
         margin: 0 auto;
+    }
+    .social-media-header>h4 {
+        font-size: 20px;
+    }
+    .video-flex {
+        flex-direction:row;
+        gap: 5rem;
     }
 }
 
 @media screen and (max-width: 490px) {
     .main-container {
         margin-top: 1rem;
+
     }
     .first-top-width {
         display: block;
@@ -254,10 +281,10 @@
 
     .text-container > h2,h3,h5 { 
         font-size: 12px;
-        /* line-height: 15px; */
+        line-height: 25px;
         text-align: center;
+        margin: 0 auto;
         margin-top: 2rem;
-        margin-right: 5px;
         height: 0;
         width: 100%;
     }
@@ -270,8 +297,10 @@
     }
 
     .social-media-cards {
-        width: 5em;
+        margin: 0 auto;
+        margin-top: 2.5rem;
         height: 3em;
+        width: 3rem;
         border-radius: 7px;
     }
     /* Images for Social-Cards */

@@ -39,78 +39,17 @@
 
 /* Ipad Pro */
 @media screen and (max-width: 1024px) {
-    .mid-about-div {
-        /* width: ; */
-    }
-    .container-subText>h5 {
-        font-size: 15px;
-        line-height: 1.2rem;
-    }
-    #img-size {
-        width: 18rem;
-        height: 15rem;
-        margin-bottom: 3rem;
-    }
-    .support-text-container>h6 {
-        font-size: 15px;
-        margin-bottom: 2rem;
-    }
+
 }
 
 /* Ipad Mini */
 @media screen and (max-width: 768px) {
-    .mid-about-div {
-        flex-direction: column;
-        height: 55em;
-        gap: 9px;
-    }
-    .container-subText {
-        width: 100%;
-        padding: 5px;
-        margin-left: 5rem;
-        margin-top: -7rem;
-    }
-    .container-subText>h5 {
-        line-height: 1.2rem;
 
-    }
-    #img-size {
-        width: 18rem;
-        height: 15rem;
-        margin-bottom: 3rem;
-    }
-    .support-text-container>h6 {
-        font-size: 15px;
-        margin-bottom: 2rem;
-
-    }
 }
 
 /* Phone */
 @media screen and (max-width: 550px) {
-    .mid-about-div {
-        width: 85%;
-        flex-direction: column;
-        height: 50rem;
-        gap: 18rem;
-    }
-    .container-subText {
-        width: 100%;
-    }
-    .container-subText>h5 {
-        line-height: 5rem;
 
-    }
-    #img-size {
-        width: 15rem;
-        height: 12rem;
-        margin-bottom: 3rem;
-    }
-    .support-text-container>h6 {
-        font-size: 15px;
-        margin-bottom: 2rem;
-
-    }
 }
 
 /* An Even Smaller Phone */
