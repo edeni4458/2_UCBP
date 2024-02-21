@@ -8,6 +8,8 @@
     width: 85%;
     margin: 0 auto;
     margin-bottom: 5em;
+    display: flex;
+    flex-direction: column;
 }
 
 .h4-margin {
@@ -33,7 +35,25 @@
 
 /* Phone */
 @media screen and (max-width: 550px) {
+    .container-About-main {
+        
+    }
 
+    .middle-container {
+        width: 85%;
+        margin: 0 auto;
+        margin-bottom: 5em;
+    }
+
+    .h4-margin {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .container-about {
+        width: 20rem;
+        height: 15rem;
+    }
 }
 /* An Even Smaller Phone */
 @media screen and (max-width: 360px) {

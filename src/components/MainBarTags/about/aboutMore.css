@@ -17,13 +17,10 @@
     background-color: #30353e;
 }
 
-
-.container-subText>h5 {
-    font-size: large;
-    line-height: 1.4rem;
+.subText > p {
+    padding: 2rem;
+    font-weight: bold;
 }
-
-
 
 .support-text-container>h6 {
     color: whitesmoke;
@@ -49,7 +46,26 @@
 
 /* Phone */
 @media screen and (max-width: 550px) {
+    .mid-about-div {
+        flex-direction: column;
+        height: 60rem;
+    }
 
+    .subText > p {
+        padding: .5rem;
+        margin-top: 0;
+    }
+
+
+    #img-size {
+        width: 17rem;
+        height: 15rem;
+        margin-bottom: 1rem;
+    }
+
+    .support-text-container>h6 {
+        margin-bottom: 1rem;
+    }
 }
 
 /* An Even Smaller Phone */

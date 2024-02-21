@@ -12,11 +12,11 @@ const BotBar = () => {
             <div className="bottom-bar">
                 <nav class="">
                     <div class="">
-                        <div class="">
+                        <div class="bottom-bar_nav">
                             <div class="bottom-nav">
-                                <a><Link reloadDocument className='nav-link' to={"/"}>Home</Link></a>
-                                <a><Link reloadDocument to={"/about"} className='nav-link'>About</Link></a>
-                                <a><Link reloadDocument to={"/UCBP"} className='nav-link'>Episodes</Link></a>
+                                <a><Link reloadDocument className='nav-link_bottom' to={"/"}>Home</Link></a>
+                                <a><Link reloadDocument to={"/about"} className='nav-link_bottom'>About</Link></a>
+                                <a><Link reloadDocument to={"/UCBP"} className='nav-link_bottom'>Episodes</Link></a>
                             </div>
                         </div>
                     </div>
