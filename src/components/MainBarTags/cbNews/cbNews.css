@@ -11,7 +11,7 @@
     height: 100%
 }
 
-#h3-margin {
+#h2-margin {
     text-align: right;
     font-weight: bolder;
 }
@@ -31,9 +31,18 @@
 
 .top-header:hover {
     background-color: #282c34a9;
-
 }
 
+.top-header > p {
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+
+.top-header > img {
+    border-radius: 8px;
+}
 .video-container {
     margin: 0 auto;
     background: rgba(56, 106, 198, 0.428);
@@ -54,22 +63,11 @@
     width: 100%;
 }
 
-.top-header>h3 {
-    margin-top: 1em;
-    margin-left: 1em;
-}
-
-#img-size {
-    height: 375px;
-    margin-top: 10px;
-    margin-right: 3px;
-}
-
 #delta-reaction {
-    height: 350px;
-    width: 400px;
-    margin-top: 4em;
-    margin-left: 7em;
+    height: 100%;
+    width: 75%;
+    margin-top: 5em;
+    margin-left: 5em;
     border-radius: 10px;
     transition: 1.0s;
     z-index: 3;
@@ -79,6 +77,43 @@
     transform: scale(1.1);
 }
 
-.h4-margin {
-    font-weight: bolder;
+/* Ipad Pro */
+@media screen and (max-width: 1024px) {
+
+}
+/* Ipad Mini */
+@media screen and (max-width: 768px) {
+
+}
+
+/* Phone */
+@media screen and (max-width: 550px) {
+    #h2-margin {
+        font-size: 20px;
+    }
+
+    .top-header {
+        flex-direction: column;
+    }
+    .top-header > p {
+        font-size: 18px;
+        margin-top: 1rem;
+    }
+
+
+    .top-header > img {
+        width: 75%;
+    }
+
+    .news-video {
+        flex-direction: column;
+        gap: 2rem;
+        margin: 0 auto;
+    }
+
+    
+}
+/* An Even Smaller Phone */
+@media screen and (max-width: 360px) {
+
 }

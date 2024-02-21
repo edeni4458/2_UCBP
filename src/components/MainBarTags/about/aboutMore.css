@@ -29,8 +29,10 @@
 
 #img-size {
     border-radius: 10px;
-    /* margin-bottom: 5px; */
-    width: 40rem;
+    margin-bottom: 5px;
+    width: 80%;
+    height: 80%;
+
 }
 
 

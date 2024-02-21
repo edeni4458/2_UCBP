@@ -20,7 +20,7 @@
 .container-about {
     border-radius: 10px;
     height: 25em;
-    width: 50em;
+    width: 75%
 }
 
 
@@ -35,10 +35,27 @@
 
 /* Phone */
 @media screen and (max-width: 550px) {
-    .container-About-main {
-        
+
+
+    .middle-container {
+        width: 85%;
+        margin: 0 auto;
+        margin-bottom: 5em;
     }
 
+    .h4-margin {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .container-about {
+        width: 20rem;
+        height: 15rem;
+    }
+}
+/* An Even Smaller Phone */
+@media screen and (max-width: 360px) {
+    
     .middle-container {
         width: 85%;
         margin: 0 auto;
@@ -51,11 +68,7 @@
     }
 
     .container-about {
-        width: 20rem;
+        width: 70%;
         height: 15rem;
     }
-}
-/* An Even Smaller Phone */
-@media screen and (max-width: 360px) {
-
 }

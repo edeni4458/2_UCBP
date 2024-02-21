@@ -23,3 +23,33 @@
     display: flex;
     height: 20rem;
 }
+
+/* Ipad Pro */
+@media screen and (max-width: 1024px) {
+
+}
+/* Ipad Mini */
+@media screen and (max-width: 768px) {
+
+}
+
+/* Phone */
+@media screen and (max-width: 550px) {
+    .ucbp-container>h2 {
+        font-size: 20px;
+    }
+
+    .embeded-container1 {
+        flex-direction: column;
+        margin-top: 2rem;
+        height: 20rem;
+    }
+    .embeded-container2 {
+        flex-direction: column;
+        height: 20rem;
+    }
+}
+/* An Even Smaller Phone */
+@media screen and (max-width: 360px) {
+
+}
