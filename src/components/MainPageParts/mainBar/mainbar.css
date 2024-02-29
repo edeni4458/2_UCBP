@@ -35,6 +35,14 @@
     font-weight: 900;
 }
 
+.nav-link-2 {
+    text-decoration: none;
+    color: #d01919;
+}
+.nav-link-2:hover {
+    color: white;
+}
+
 .nav-link_decoration {
     text-decoration: none;
 }
@@ -173,7 +181,7 @@
 
 /* #282c3474 */
 /* Phone */
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 450px ) {
     .nav-bar-main {
         padding: 2rem;
     }
@@ -210,7 +218,7 @@
     }
 
     #nav-title {
-        font-size: 14.3px;
+        font-size: 13.5px;
     }
 
     .nav-right {
@@ -231,18 +239,9 @@
 
 
 /* An Even Smaller Phone */
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 400px) {
     .nav-bar-main {
         padding: 2rem;
-    }
-    
-    .nav-bar-logo-links {
-        width: 90%;
-    }
-
-    .nav-bar-links {
-        display: flex;
-        flex-direction: column;
     }
 
     .nav-list {
@@ -254,32 +253,89 @@
         /* position: absolute */
     }
 
-    .nav-link {
-        width: 4.0rem;
+    .nav-bar-links {
+        display: flex;
         flex-direction: column;
-        align-items: center;
-        font-size: 10px;
-    }
-
-    #nav-title {
-        font-size: 14px;
     }
 
     .nav-bar-mobile-menu>.nav-right {
-        display: contents;
+        display: flex;
     }
 
-    .list-margin {
-        margin-right: 0px;
-
+    .nav-link {
+        font-size: 15px;
+        padding: 5px;
     }
 
-    #ucbp-logo {
-        height: 3em;
-        border-radius: 5px;
+    .nav-bar-mobile-menu {
+        position: inherit;
     }
 
     .nav-bar-list {
-        margin-bottom: 1.5rem;
+        display: contents;
+    }
+
+    #nav-title {
+        font-size: 12px;
+    }
+
+    .nav-right {
+        display: none;
+    }
+
+    #ucbp-logo {
+        height: 2.5em;
+        border-radius: 5px;
+    }
+}
+
+
+@media screen and (max-width: 380px) {
+    .nav-bar-main {
+        padding: 2rem;
+    }
+
+    .nav-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 20rem;
+        /* position: absolute */
+    }
+
+    .nav-bar-links {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-bar-mobile-menu>.nav-right {
+        display: flex;
+    }
+
+    .nav-link {
+        font-size: 15px;
+        padding: 5px;
+    }
+
+    .nav-bar-mobile-menu {
+        position: inherit;
+    }
+
+    .nav-bar-list {
+        display: contents;
+    }
+
+    #nav-title {
+        font-size: 11px;
+    }
+
+    .nav-right {
+        display: none;
+    }
+
+    #ucbp-logo {
+        height: 2.5em;
+        border-radius: 5px;
     }
 }

@@ -1,9 +1,12 @@
-
 /* Connect */
 .main-connect-con {
     /* margin: 0 auto; */
     width: 100%;
     margin-top: 3em;
+}
+
+.main-connect {
+    margin: 0 auto;
 }
 
 .main-connect>h2 {
@@ -95,3 +98,23 @@
     border: 2px solid white;
     /* position:relative; */
 }
+
+/* Ipad Pro */
+@media screen and (max-width: 1024px) {}
+
+/* Ipad Mini */
+@media screen and (max-width: 768px) {}
+
+/* Phone */
+@media screen and (max-width: 550px) {
+    .main-connect {
+        width: 85%;
+    }
+
+    .main-connect>h2 {
+        font-size: 20px;
+    }
+}
+
+/* An Even Smaller Phone */
+@media screen and (max-width: 360px) {}

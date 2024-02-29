@@ -19,8 +19,7 @@ const Connect = () => {
 
     return (
         <div className="main-connect-con">
-                {openModal && <ModalConct closeModal={setOpenModal} />}
-
+            {openModal && <ModalConct closeModal={setOpenModal} />}
             <div className="main-connect">
                 <h2>Sign up here to receive updates.</h2>
                 <button className='openModalBtn' onClick={() => { setOpenModal(true) }}>sign up</button>

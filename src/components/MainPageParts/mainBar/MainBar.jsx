@@ -62,7 +62,7 @@ const NavList = () => (
                 </div>
                 <button className='btn btn-outline-danger'>
                     <div className="">
-                        <Link reloadDocument to={"/connect"} className='nav-link'>Connect</Link>
+                        <Link reloadDocument to={"/connect"} className='nav-link-2'>Connect</Link>
                     </div>
                 </button>
             </div>
