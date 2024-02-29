@@ -17,15 +17,15 @@ const CBnews = () => {
                 </div>
             </div>
             <div className='video-container'>
-                <Container className="news-video">
                     <h3>MGS Delta Reaction</h3>
+                <div className="news-video">
                     <div className="cb-news_videos">
-                        <iframe id='delta-reaction' width="500" height="115" src="https://www.youtube.com/embed/OXR2yuzN09w" title="MGS Delta First Look" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                        <iframe id='delta-reaction'  src="https://www.youtube.com/embed/OXR2yuzN09w" title="MGS Delta First Look" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                     </div>
                     <div className="cb-news_videos">
-                        <iframe id='delta-reaction' width="500" height="115" src="https://www.youtube.com/embed/NSUbn0GBT_w?si=fZ-XlyK6vV1iONAl" title="MGS Delta Gameplay First Look" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                        <iframe id='delta-reaction'  src="https://www.youtube.com/embed/NSUbn0GBT_w?si=fZ-XlyK6vV1iONAl" title="MGS Delta Gameplay First Look" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                     </div>
-                </Container>
+                </div>
             </div>
         </div>
     )
