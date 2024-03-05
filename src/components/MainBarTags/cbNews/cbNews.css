@@ -61,7 +61,7 @@
 
 .news-video {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 .news-video.container {
@@ -142,7 +142,7 @@
     }
 
     #delta-reaction {
-        margin-left: .7rem;
+        margin-left: .1rem;
         margin-top: 3rem;
         width: 60%;
     }

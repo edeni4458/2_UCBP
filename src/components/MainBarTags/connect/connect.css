@@ -14,6 +14,29 @@
     margin-bottom: 1em;
 }
 
+.contact {
+
+    margin: 0 auto;
+    width: 100%;
+}
+
+.contact-details {
+
+}
+
+.contact-details>p,
+a {
+    font-size: larger;
+    font-weight: 900;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#underline {
+    text-decoration: none;
+    color: white;
+}
+
 .connect-container {
     margin: 0 auto;
     justify-content: space-around;
@@ -75,10 +98,6 @@
     border-radius: 50%;
 }
 
-#underline {
-    text-decoration: none;
-}
-
 .openModalBtn {
     background-color: rgba(255, 255, 255, 0.275);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -114,6 +133,23 @@
     .main-connect>h2 {
         font-size: 20px;
     }
+
+    .connect-container > h3 {
+        font-size: larger;
+    }
+
+    .social-media {
+        margin-top: 4rem;
+    }
+
+    .codec-container > h3 {
+        font-size: 14px;
+    }
+    
+    .socialMedia-links {
+        margin-top: 4rem;
+    }
+
 }
 
 /* An Even Smaller Phone */

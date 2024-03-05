@@ -24,9 +24,10 @@ const Connect = () => {
                 <h2>Sign up here to receive updates.</h2>
                 <button className='openModalBtn' onClick={() => { setOpenModal(true) }}>sign up</button>
                 <div className="contact">
-                    <h2>Contact</h2>
-                    <h5>email</h5>
-                    <a id='underline' href="mailto:underthecardboardbox@gmail.com"><h5>underthecardboardbox@gmail.com</h5></a>
+                    <div className='contact-details'>
+                        <p>Contact</p>
+                        <a id='underline' href="mailto:underthecardboardbox@gmail.com"><p>underthecardboardbox@gmail.com</p></a>
+                    </div>
                 </div>
                 <div className="connect-container">
                     <h3>Follow us on</h3>

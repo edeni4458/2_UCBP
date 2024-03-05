@@ -19,28 +19,28 @@
 }
 
 .mid-pic {
-    height: 28em;
+    height: 23em;
     object-fit: fill;
     text-align: center;
     width: 70%;
-    margin-left: 4.5em;
+    margin-left: 3.5rem;
     margin-bottom: 2em;
     border-radius: 10px;
 }
 
 .mid-picB {
-    height: 27em;
+    height: 23em;
     object-fit: cover;
     text-align: center;
     width: 70%;
-    margin-left: 4.5em;
-    margin-bottom: 2em;
+    margin-left: 3.5rem;
+    margin-bottom: 2rem;
     border-radius: 10px;
 }
 
 .slider-set {
     margin-top: .5em;
-
+    
 }
 
 .slider-set-main {
@@ -189,16 +189,20 @@
         width: 100%;
     }
 
+    .slider-set {
+        margin-top: 0;
+    }
+
     .mid-pic {
         height: 18em;
         width: 12em;
-        margin-left: 3.5rem;
+        margin-left: 2.6rem;
     }
 
     .mid-picB {
         height: 18em;
         width: 12em;
-        margin-left: 3.5rem;
+        margin-left: 2.6rem;
     }
 
     .slider-link {
